@@ -1,0 +1,66 @@
+body {
+ background-color: #1d1d1d;
+ font-family: 'Roboto';
+.img {
+	width: 60%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-radius: 60px;
+	box-shadow: 0px 0px 5px 5px #111;
+}
+.container {
+	display: flex;
+	width: 50%;
+	height: 120px;
+	background: #1b1b1b;
+	margin: 0 auto;
+	border-radius: 60px;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.discord {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	user-select: none; /* убирать выделение текста */
+	background: #7289DA; /* фон кнопки */
+	outline: none; /* убирать контур в Mozilla */
+	transition: 0.2s;
+}
+.discord:hover { background: #8ea0e1; } /* при наведении курсора мышки */
+.discord:active { background: #5b6dae;transform: scale(0.9); } /* при нажатии */
+.youtube {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	user-select: none; /* убирать выделение текста */
+	background: #FF0000; /* фон кнопки */
+	outline: none; /* убирать контур в Mozilla */
+	transition: 0.2s;
+}
+.youtube:hover { background: #e27b6c; } /* при наведении курсора мышки */
+.youtube:active { background: #80261f;transform: scale(0.9); } /* при нажатии */
+.container{overflow:hidden;}
+.main div{justify-content:space-evenly;float:left;margin:0 20px 0 20px;display: flex;
+  justify-content: center;
+  align-items: center;}
+
+.ds {
+	
+}
+.yt {
+	
+}
+
+.pashalka {
+	color: #1d1d1d;
+	text-decoration: overline;
+	margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+	vertical-align: bottom;
+}
+}
