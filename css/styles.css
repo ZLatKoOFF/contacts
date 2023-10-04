@@ -1,7 +1,7 @@
 body {
  background-color: #1d1d1d;
  font-family: 'Roboto';
-.img {
+#img {
 	width: 60%;
 	height: auto;
 	display: block;
@@ -10,7 +10,7 @@ body {
 	border-radius: 60px;
 	box-shadow: 0px 0px 5px 5px #111;
 }
-.container {
+#container {
 	display: flex;
 	width: 50%;
 	height: 120px;
@@ -21,7 +21,7 @@ body {
 	align-items: center;
 	justify-content: center;
 }
-.discord {
+#discord {
 	width: 80px;
 	height: 80px;
 	border-radius: 40px;
@@ -30,9 +30,9 @@ body {
 	outline: none; /* убирать контур в Mozilla */
 	transition: 0.2s;
 }
-.discord:hover { background: #8ea0e1; } /* при наведении курсора мышки */
-.discord:active { background: #5b6dae;transform: scale(0.9); } /* при нажатии */
-.youtube {
+#discord:hover { background: #8ea0e1; } /* при наведении курсора мышки */
+#discord:active { background: #5b6dae;transform: scale(0.9); } /* при нажатии */
+#youtube {
 	width: 80px;
 	height: 80px;
 	border-radius: 40px;
@@ -41,21 +41,21 @@ body {
 	outline: none; /* убирать контур в Mozilla */
 	transition: 0.2s;
 }
-.youtube:hover { background: #e27b6c; } /* при наведении курсора мышки */
-.youtube:active { background: #80261f;transform: scale(0.9); } /* при нажатии */
-.container{overflow:hidden;}
-.main div{justify-content:space-evenly;float:left;margin:0 20px 0 20px;display: flex;
+#youtube:hover { background: #e27b6c; } /* при наведении курсора мышки */
+#youtube:active { background: #80261f;transform: scale(0.9); } /* при нажатии */
+#container{overflow:hidden;}
+#main div{justify-content:space-evenly;float:left;margin:0 20px 0 20px;display: flex;
   justify-content: center;
   align-items: center;}
 
-.ds {
+#ds {
 	
 }
-.yt {
+#yt {
 	
 }
 
-.pashalka {
+#pashalka {
 	color: #1d1d1d;
 	text-decoration: overline;
 	margin-left: auto;
