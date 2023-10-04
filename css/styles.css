@@ -31,6 +31,7 @@ body {
 	background: #7289DA; /* фон кнопки */
 	outline: none; /* убирать контур в Mozilla */
 	transition: 0.2s;
+	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
 }
 #discord:hover { background: #8ea0e1; } /* при наведении курсора мышки */
 #discord:active { background: #5b6dae;transform: scale(0.9); } /* при нажатии */
@@ -42,6 +43,7 @@ body {
 	background: #FF0000; /* фон кнопки */
 	outline: none; /* убирать контур в Mozilla */
 	transition: 0.2s;
+	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
 }
 #youtube:hover { background: #e27b6c; } /* при наведении курсора мышки */
 #youtube:active { background: #80261f;transform: scale(0.9); } /* при нажатии */
