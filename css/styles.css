@@ -1,6 +1,7 @@
 body {
  background-color: #1d1d1d;
  font-family: 'Roboto';
+}
 #img {
 	width: 60%;
 	height: auto;
@@ -62,5 +63,4 @@ body {
     margin-right: auto;
     width: 6em;
 	vertical-align: bottom;
-}
 }
