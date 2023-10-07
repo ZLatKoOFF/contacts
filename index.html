@@ -11,8 +11,11 @@
 	</head>
 	<body>
 		<script>
-			function playMusic(){
+			function playMusic1(){
 			var music = new Audio('sound/puk.mp3');
+			music.play();}
+			function playMusic2(){
+			var music = new Audio('sound/stonks.mp3');
 			music.play();}
 			(() => {
 			'use strict';
@@ -29,7 +32,7 @@
 			});
 			})();
 		</script>
-		<div onclick="playMusic()" id="pashalka">
+		<div onclick="playMusic1()" id="pashalka1">
 			опа а это чо
 		</div>
 		<p>
@@ -39,14 +42,19 @@
 			<div id="main">
 				<a href="https://discord.com/users/796079131372683365/"><div id="discord">
 					<img id="ds" src="image/icons/discord.svg">
-				</div>
+				</div></a>
 				<a href="https://www.youtube.com/channel/UCJNp8jKAknA6DW6tMlk5XrQ"><div id="youtube">
 					<img id="yt" src="image/icons/youtube.svg">
-				</div>
+				</div></a>
 				<a href="https://t.me/ofbuirsxjjgtfhlkvzelenskpidrgjhf"><div id="telegram">
 					<img id="tg" src="image/icons/telegram.svg">
-				</div>
+				</div></a>
 			</div>
 		</div>
+		<footer style="display: flex;justify-content: center;align-items: flex-end;position: absolute;left: 0;bottom: 0;width: 100%;">
+			<div onclick="playMusic2()" id="pashalka2">
+				ебать а это че такое
+			</div>
+		</footer>
 	</body>
 </html>
