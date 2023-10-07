@@ -28,35 +28,37 @@ body {
 	height: 80px;
 	border-radius: 40px;
 	user-select: none;
-	background: #7289DA00;
+	/* background: #7289DA; */
 	outline: none;
 	transition: 0.2s;
 	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
 }
 #discord:hover { transform: scale(1.03); } /* при наведении курсора мышки */
-#discord:active { background: #5b6dae;transform: scale(0.9); } /* при нажатии */
+#discord:active { /* background: #5b6dae; */transform: scale(0.9); } /* при нажатии */
 #youtube {
 	width: 80px;
 	height: 80px;
 	border-radius: 40px;
 	user-select: none;
-	background: #FF000000;
+	/* background: #FF0000; */
 	outline: none;
 	transition: 0.2s;
 	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
 }
 #youtube:hover { transform: scale(1.03); }
-#youtube:active { background: #80261f;transform: scale(0.9); }
+#youtube:active { /* background: #80261f; */transform: scale(0.9); }
 #telegram {
 	width: 80px;
 	height: 80px;
 	border-radius: 40px;
 	user-select: none;
-	background: #2AABEE00;
+	/* background: #2AABEE; */
 	outline: none;
 	transition: 0.2s;
 	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
 }
+#telegram:hover { transform: scale(1.03); }
+#telegram:active { /* background: #1390d4; */transform: scale(0.9); }
 #container{overflow:hidden;}
 #main div{justify-content:space-evenly;float:left;margin:0 20px 0 20px;display: flex;
   justify-content: center;
