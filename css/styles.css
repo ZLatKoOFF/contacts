@@ -28,7 +28,7 @@ body {
 	height: 80px;
 	border-radius: 40px;
 	user-select: none;
-	background: #7289DA;
+	background: #7289DA00;
 	outline: none;
 	transition: 0.2s;
 	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
@@ -40,7 +40,7 @@ body {
 	height: 80px;
 	border-radius: 40px;
 	user-select: none;
-	background: #FF0000;
+	background: #FF000000;
 	outline: none;
 	transition: 0.2s;
 	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
@@ -52,7 +52,7 @@ body {
 	height: 80px;
 	border-radius: 40px;
 	user-select: none;
-	background: #2AABEE;
+	background: #2AABEE00;
 	outline: none;
 	transition: 0.2s;
 	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
