@@ -47,6 +47,16 @@ body {
 }
 #youtube:hover { transform: scale(1.03); }
 #youtube:active { background: #80261f;transform: scale(0.9); }
+#telegram {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	user-select: none;
+	background: #2AABEE;
+	outline: none;
+	transition: 0.2s;
+	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
+}
 #container{overflow:hidden;}
 #main div{justify-content:space-evenly;float:left;margin:0 20px 0 20px;display: flex;
   justify-content: center;
