@@ -28,6 +28,8 @@ body {
 	align-items: center;
 	justify-content: center;
 	box-shadow: inset 0px 7px 20px 0px #111;
+	animation: squeeze 1.2s forwards;
+	animation-timing-function: cubic-bezier(0.07, 0.4, 0.41, 1.28);
 }
 #discord {
 	width: 80px;
@@ -114,5 +116,13 @@ body {
 @keyframes slide {
   to {
     transform: translateX(0);
+  }
+}
+@keyframes squeeze {
+  0% {
+	width: 90%;
+  }
+  100% {
+	width: 50%;
   }
 }
