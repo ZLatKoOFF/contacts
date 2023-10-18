@@ -3,7 +3,7 @@ body {
 	font-family: 'Roboto';
 	min-width: 800px;
 	animation: ani 1s forwards;
-	animation-timing-function: cubic-bezier(0.69, -0.24, 0.99, 0.99);
+	animation-timing-function: cubic-bezier(0.48,-0.24, 0.99, 0.99);
 }
 #img {
 	width: 60%;
