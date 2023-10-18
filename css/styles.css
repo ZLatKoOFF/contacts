@@ -119,8 +119,11 @@ body {
   }
 }
 @keyframes squeeze {
-  30% {
+  0% {
 	width: 90%;
+  }
+  30% {
+	width: 80%;
   }
   100% {
 	width: 50%;
