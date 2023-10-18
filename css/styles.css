@@ -1,7 +1,9 @@
 body {
- background-color: #1d1d1d;
- font-family: 'Roboto';
- min-width: 800px;
+	background-color: #1d1d1d;
+	font-family: 'Roboto';
+	min-width: 800px;
+	animation: ani 0.5s forwards;
+	/* animation-timing-function: cubic-bezier(1, 0, 0.8, 1); */
 }
 #img {
 	width: 60%;
@@ -11,6 +13,9 @@ body {
 	margin-top: 100px;
 	border-radius: 60px;
 	box-shadow: 0px 7px 13px 4px #111;
+	transform: translateY(-100px);
+	animation: slide 1s both;
+	animation-timing-function: cubic-bezier(0.18, 0.34, 0.5, 1.05);
 }
 #container {
 	display: flex;
@@ -61,9 +66,18 @@ body {
 #telegram:hover { transform: scale(1.03); }
 #telegram:active { /* background: #1390d4; */transform: scale(0.9); }
 #container{overflow:hidden;}
-#main div{justify-content:space-evenly;float:left;margin:0 20px 0 20px;display: flex;
-  justify-content: center;
-  align-items: center;}
+#main div{
+	justify-content:space-evenly;
+	float:left;margin:0 20px 0 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#mainbuttoms {
+	transform: translateY(100px);
+	animation: slide 1s 0.2s both;
+}
 
 #ds {
 	transform: scale(0.07);
@@ -92,4 +106,13 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	vertical-align: bottom;
+}
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes slide {
+  to {
+    transform: translateX(0);
+  }
 }
