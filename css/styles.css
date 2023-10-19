@@ -4,6 +4,8 @@ body {
 	background-color: #1d1d1d;
 	font-family: 'Roboto';
 	min-width: 800px;
+	animation: ani 1s forwards;
+	animation-timing-function: cubic-bezier(0.69, -0.24, 0.99, 0.99);
 }
 html {
     margin: 0;
@@ -124,7 +126,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 }
 @keyframes ani {
   0% {opacity: 0;}
-  100% {opacity: 1;}
+  to {opacity: 1;}
 }
 @keyframes slide {
   to {
