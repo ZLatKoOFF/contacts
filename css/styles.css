@@ -23,6 +23,7 @@ html {
 	animation: slide 1s 0.2s both;
 	animation-timing-function: cubic-bezier(0.14, 0.38, 0.42, 1.1);
 p {margin-bottom: 40px;}
+a:focus {outline: 0;-webkit-tap-highlight-color: transparent;}
 }
 #container {
 	display: flex;
