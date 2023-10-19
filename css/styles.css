@@ -6,7 +6,7 @@ body {
 	animation: ani 1s forwards;
 	animation-timing-function: cubic-bezier(0.48,-0.24, 0.99, 0.99);
 }
-#img {
+.img {
 	width: 60%;
 	height: auto;
 	display: block;
