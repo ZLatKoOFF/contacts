@@ -1,10 +1,15 @@
 body {
-	margin: 12px;
+	margin: 0;
+	height: 100%;
 	background-color: #1d1d1d;
 	font-family: 'Roboto';
 	min-width: 800px;
 	animation: ani 1s forwards;
 	animation-timing-function: cubic-bezier(0.48,-0.24, 0.99, 0.99);
+}
+html {
+    margin: 0;
+    height: 100%;
 }
 .img {
 	width: 60%;
