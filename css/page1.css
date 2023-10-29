@@ -24,12 +24,12 @@
 	80% {text-shadow: 1px 1px 7px rgb(0 255 0);}
 	100% {text-shadow: 1px 1px 7px rgb(255 255 0);}
 }
-.knopka {
-	margin: auto 0.5em !important;
-	font-size: 3em !important;
-}
 @media screen and (max-width: 800px) {
 	#text472 {
+		font-size: 3em !important;
+	}
+	.knopka {
+		margin: auto 0.5em !important;
 		font-size: 3em !important;
 	}
 }
