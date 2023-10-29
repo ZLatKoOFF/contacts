@@ -28,7 +28,7 @@
 	margin: auto 0.5em !important;
 	font-size: 3em !important;
 }
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
 	#text472 {
 		font-size: 3em !important;
 	}
