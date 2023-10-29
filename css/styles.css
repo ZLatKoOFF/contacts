@@ -118,9 +118,8 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 #pashalka2 {
 	-webkit-user-select: none;
 	color: #21212185;
-	margin-left: auto;
-	margin-right: auto;
 	vertical-align: bottom;
+	margin: initial;
 }
 @keyframes ani {
   0% {opacity: 0;}
