@@ -10,3 +10,11 @@
     -webkit-mask-position: -50%;
   }
 }
+@keyframes RGB {
+	0% {text-shadow: 1px 1px 7px rgb(255 0 0);}
+	20% {text-shadow: 1px 1px 7px rgb(255 0 255);}
+	40% {text-shadow: 1px 1px 7px rgb(0 0 255);}
+	60% {text-shadow: 1px 1px 7px rgb(0 255 255);}
+	80% {text-shadow: 1px 1px 7px rgb(0 255 0);}
+	100% {text-shadow: 1px 1px 7px rgb(255 255 0);}
+}
