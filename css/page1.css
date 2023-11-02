@@ -25,6 +25,9 @@
 	100% {text-shadow: 1px 1px 7px rgb(255 255 0);}
 }
 @media (orientation: portrait) {
+	#textmain {
+		height: 55vmax;
+	}
 	#text472 {
 		font-size: 3em !important;
 	}
