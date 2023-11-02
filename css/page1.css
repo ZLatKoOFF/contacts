@@ -26,7 +26,7 @@
 }
 @media (orientation: portrait) {
 	#textmain {
-		height: 55vmax;
+		height: 60vmax;
 	}
 	#text472 {
 		font-size: 3em !important;
