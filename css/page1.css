@@ -3,7 +3,7 @@
 	-webkit-text-size-adjust: none;          
 	-webkit-tap-highlight-color: transparent;
 	-webkit-user-select: none;
-	font-family: 'Comic Sans MS';
+	font-family: 'Comic Sans MS' !important;
 }
 @keyframes ani {
   0% {opacity: 0;}
