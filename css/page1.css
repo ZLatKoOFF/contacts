@@ -35,4 +35,13 @@
 		margin: auto 0.5em !important;
 		font-size: 3em !important;
 	}
+	.box1 {
+		margin: 60px auto 60px auto;
+		border-radius: 55px;
+		display: table;
+	}
+	.textbox {
+		font-size: 50px;
+		margin: 20px;
+	}
 }
