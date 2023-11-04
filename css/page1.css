@@ -4,7 +4,7 @@
 	-webkit-tap-highlight-color: transparent;
 	-webkit-user-select: none;
 	font-family: 'Comic Sans MS' !important;
-	opacity: 1 ! important;
+	opacity: 1 !important;
 }
 @keyframes ani {
   0% {opacity: 0;}
