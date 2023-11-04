@@ -36,12 +36,12 @@
 		font-size: 3em !important;
 	}
 	.box1 {
-		margin: 60px auto 60px auto;
-		border-radius: 55px;
-		display: table;
+		margin: 60px auto 60px auto  !important;
+		border-radius: 55px  !important;
+		display: table  !important;
 	}
 	.textbox {
-		font-size: 50px;
-		margin: 20px;
+		font-size: 50px  !important;
+		margin: 20px  !important;
 	}
 }
