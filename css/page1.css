@@ -30,7 +30,8 @@
 ::-webkit-scrollbar-thumb:hover {background: #555;transition: 0.2s;}
 @media (orientation: portrait) {
 	#textmain {
-		max-height: 70vh;
+		max-height: 70vh !important;
+		overflow-y: auto !important;
 	}
 	#text472 {
 		font-size: 3em !important;
