@@ -54,6 +54,7 @@
 	font-family: 'Comic Sans MS';
 	font-style: normal;
 	font-weight: normal;
-	url("/contacts/font/ComicSansMSBold.woff") format("woff"),
-	url("/contacts/font/ComicSansMSBold.ttf") format("truetype");
+	url("/contacts/font/ComicSansMS.woff") format("woff"),
+	url("/contacts/font/ComicSansMS.woff2") format("woff2"),
+	url("/contacts/font/ComicSansMS.ttf") format("truetype");
 }
