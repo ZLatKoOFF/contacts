@@ -161,7 +161,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	.img {
 		width: 90% !important;
 		margin-top: 30% !important;
-		animation: slide 1s 0.2s both !important;
+		animation: slide1 1s 0.2s both !important;
 	}
 	#container {
 		display: flex !important;
