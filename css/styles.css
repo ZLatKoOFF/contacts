@@ -208,7 +208,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 		}
 	}
 	#qiwi {
-		width: 30% !important;
+		width: 35% !important;
 		height: 90px !important;
 		margin: 30% 5% 0 auto !important;
 		border-radius: 45px !important;
@@ -226,7 +226,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 }
 #qiwi {
 	display: flex;
-	width: 15%;
+	width: 20%;
 	height: 40px;
 	margin: 5% 2% 0 auto;
 	background: #1b1b1b57;
