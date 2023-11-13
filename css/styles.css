@@ -210,7 +210,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	#qiwi {
 		width: 35% !important;
 		height: 90px !important;
-		margin: 30% 5% 0 auto !important;
+		margin: 5%; !important;
 		border-radius: 45px !important;
 	}
 	#qw {
@@ -222,13 +222,14 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 		color: #fff !important;
 		font-size: 2.2em !important;
 		font-family: 'Comic Sans MS' !important;
+		margin-right: 10px;
 	}
 }
 #qiwi {
-	display: flex;
-	width: 20%;
+	display: inline-flex;
+	/*width: 20%;*/
 	height: 40px;
-	margin: 5% 2% 0 auto;
+	margin: 3%;
 	background: #1b1b1b57;
 	border-radius: 20px;
 	box-shadow: 2px 2px 5px 0px #111;
@@ -238,5 +239,6 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	transform-origin: center;
 	transform: scale(0.8) translateY(3px) translateX(3px);
 }
+#qwtext {margin-right: 10px;}
 #qiwi:hover { transform: scale(1.03); }
 #qiwi:active { transform: scale(0.9); }
