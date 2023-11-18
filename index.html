@@ -29,6 +29,21 @@
 <!-- /Yandex.Metrika counter -->
 	</head>
 	<body>
+<script>
+onload = function () {myFunc ([90, 67, 66, 77])} // keyCode
+ 
+function myFunc (keys)
+{
+var S = [], e, k, J = keys.length, f1 = function ()
+{for (var j = r = 0; j < J; j++) r = r || k == keys [j]; return r},
+f2 = function () {for (var j = 0, r = !j; j < J; j++) r = r && S [keys [j]];
+if (r) document.getElementById ('knopka1').style.display = ''}
+ 
+with (document.body)
+onkeydown = function (v) {e = window.event || v, k = e.keyCode; if (f1 ()) S [k] = 1, f2 ()},
+onkeyup   = function (v) {e = window.event || v, k = e.keyCode; if (f1 ()) S [k] = 0}
+}
+</script>
 		<div onclick="playMusic1()" id="pashalka1">
 			опа а это чо
 		</div>
