@@ -152,7 +152,12 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	width: 50%;
   }
 }
-@media (orientation: portrait) {
+
+@media screen and (min-device-height: 670px) {
+	.img {margin-top: 100px !important;}
+}
+
+@media handheld and (orientation: portrait) {
 	a:focus {
 		-webkit-text-size-adjust: none !important;
 		-webkit-user-select: none !important;
