@@ -228,6 +228,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	display: inline-flex;
 	height: 40px;
 	margin: 3%;
+	margin-top: 0%;
 	background: #1b1b1b57;
 	border-radius: 20px;
 	box-shadow: 2px 2px 5px 0px #111;
