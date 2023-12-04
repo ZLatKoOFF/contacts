@@ -11,6 +11,27 @@ html {
     margin: 0;
     height: 100%;
 }
+footer {opacity: 0.8;}
+div.background1 {
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+	z-index: -1;
+	filter: blur(25px);
+}
+img.bg1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+	transform: translatex(20%) scale(0.7);
+}
 .img {
 	width: 60%;
 	height: auto;
@@ -21,6 +42,7 @@ html {
 	box-shadow: 0px 7px 13px 4px #111;
 	animation: slide1 1s 0.2s both;
 	animation-timing-function: cubic-bezier(0.34, 0.33, 0.46, 1.31);
+	border: 3px solid #00000000;
 }
 p {margin-bottom: 40px;}
 a {border-radius: 100%;}
@@ -35,7 +57,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	display: flex;
 	width: 50%;
 	height: 120px;
-	background: #1b1b1b;
+	background-color: rgb(27 27 27 / 70%);
 	margin: 0 auto;
 	border-radius: 60px;
 	flex-wrap: wrap;
@@ -44,6 +66,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	box-shadow: inset 0px 7px 20px 0px #111;
 	animation: squeeze 1.2s forwards;
 	animation-timing-function: cubic-bezier(0.24, 0.71, 0.58, 1);
+	border: 1px solid #121212;
 }
 #discord {
 	width: 80px;
