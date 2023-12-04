@@ -187,7 +187,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	}
 }
 
-@media handheld and (orientation: portrait) {
+@media (orientation: portrait) {
 	a:focus {
 		-webkit-text-size-adjust: none !important;
 		-webkit-user-select: none !important;
