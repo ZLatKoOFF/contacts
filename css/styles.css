@@ -153,9 +153,38 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
   }
 }
 
-@media screen and (min-device-height: 670px) {
-	.img {margin-top: 0px !important;}
-	p {margin-bottom: 10px !important;}
+@media screen and (max-device-height: 870px) {
+	.img {margin-top: 0px !important; width: 55% !important;}
+	p {margin-bottom: 25px !important;}
+	#container {
+		display: flex !important;
+		width: 70%;
+		height: 90px !important;
+	}
+	#discord {
+		width: 60px !important;
+    		height: 60px !important;
+    		border-radius: 30px !important;
+	}
+	#youtube {
+		width: 60px !important;
+    		height: 60px !important;
+    		border-radius: 30px !important;
+	}
+	#telegram {
+		width: 60px !important;
+    		height: 60px !important;
+    		border-radius: 30px !important;
+	}
+	#ds {
+		transform: scale(0.5) !important;
+	}
+	#yt {
+		transform: scale(0.5) !important;
+	}
+	#tg {
+		transform: scale(0.5) !important;
+	}
 }
 
 @media handheld and (orientation: portrait) {
