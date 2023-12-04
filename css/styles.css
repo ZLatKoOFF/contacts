@@ -154,7 +154,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 }
 
 @media screen and (min-device-height: 670px) {
-	.img {margin-top: 100px !important;}
+	.img {margin-top: 0px !important;}
 }
 
 @media handheld and (orientation: portrait) {
