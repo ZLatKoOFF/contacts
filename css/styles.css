@@ -177,13 +177,13 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
     		border-radius: 30px !important;
 	}
 	#ds {
-		transform: scale(0.5) !important;
+		transform: scale(0.05) !important;
 	}
 	#yt {
-		transform: scale(0.5) !important;
+		transform: scale(0.05) !important;
 	}
 	#tg {
-		transform: scale(0.5) !important;
+		transform: scale(0.05) !important;
 	}
 }
 
