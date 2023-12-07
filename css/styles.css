@@ -104,6 +104,18 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 }
 #telegram:hover { transform: scale(1.03); }
 #telegram:active { /* background: #1390d4; */transform: scale(0.9); }
+#gmail {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	user-select: none;
+	/* background: #2AABEE; */
+	outline: none;
+	transition: 0.2s;
+	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
+}
+#gmail:hover { transform: scale(1.03); }
+#gmail:active { /* background: #1390d4; */transform: scale(0.9); }
 #container{overflow:hidden;}
 #main div{
 	justify-content:space-evenly;
@@ -127,6 +139,10 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 }
 #tg {
 	transform: scale(0.07);
+	transform-origin: center;
+}
+#gm {
+	transform: scale(0.06);
 	transform-origin: center;
 }
 
@@ -199,6 +215,11 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
     		height: 60px !important;
     		border-radius: 30px !important;
 	}
+	#gmail {
+		width: 60px !important;
+		height: 60px !important;
+		border-radius: 30px !important;
+	}
 	#ds {
 		transform: scale(0.05) !important;
 	}
@@ -207,6 +228,9 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	}
 	#tg {
 		transform: scale(0.05) !important;
+	}
+	#gm {
+		transform: scale(0.04) !important;
 	}
 }
 
@@ -241,6 +265,11 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 		height: 8em !important;
 		border-radius: 65px !important;
 	}
+	#gmail {
+		width: 8em !important;
+		height: 8em !important;
+		border-radius: 65px !important;
+	}
 	#main div{
 		margin:0 40px 0 40px !important;
 	}
@@ -252,6 +281,9 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	}
 	#tg {
 		transform: scale(0.11) !important;
+	}
+	#gm {
+		transform: scale(0.09) !important;
 	}
 	#knopka1 {
 		margin: auto 0 auto 0 !important;
