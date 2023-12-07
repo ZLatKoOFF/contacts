@@ -68,7 +68,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	animation-timing-function: cubic-bezier(0.24, 0.71, 0.58, 1);
 	border: 1px solid #121212;
 }
-#discord {
+#discord, #youtube, #telegram, #gmail {
 	width: 80px;
 	height: 80px;
 	border-radius: 40px;
@@ -78,44 +78,8 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	transition: 0.2s;
 	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
 }
-#discord:hover { transform: scale(1.03); } /* при наведении курсора мышки */
-#discord:active { /* background: #5b6dae; */transform: scale(0.9); } /* при нажатии */
-#youtube {
-	width: 80px;
-	height: 80px;
-	border-radius: 40px;
-	user-select: none;
-	/* background: #FF0000; */
-	outline: none;
-	transition: 0.2s;
-	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
-}
-#youtube:hover { transform: scale(1.03); }
-#youtube:active { /* background: #80261f; */transform: scale(0.9); }
-#telegram {
-	width: 80px;
-	height: 80px;
-	border-radius: 40px;
-	user-select: none;
-	/* background: #2AABEE; */
-	outline: none;
-	transition: 0.2s;
-	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
-}
-#telegram:hover { transform: scale(1.03); }
-#telegram:active { /* background: #1390d4; */transform: scale(0.9); }
-#gmail {
-	width: 80px;
-	height: 80px;
-	border-radius: 40px;
-	user-select: none;
-	/* background: #2AABEE; */
-	outline: none;
-	transition: 0.2s;
-	box-shadow: inset -4px 4px 8px 0px #ffffff87, -4px 4px 6px 0px #121212;
-}
-#gmail:hover { transform: scale(1.03); }
-#gmail:active { /* background: #1390d4; */transform: scale(0.9); }
+#discord:hover, #youtube:hover, #telegram:hover, #gmail:hover { transform: scale(1.03); }
+#discord:hover, #youtube:hover, #telegram:hover, #gmail:hover { transform: scale(0.9); }
 #container{overflow:hidden;}
 #main div{
 	justify-content:space-evenly;
@@ -124,20 +88,11 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	justify-content: center;
 	align-items: center;
 }
-
 #mainbuttoms {
 	animation: slide2 1s 0.2s both;
 }
 
-#ds {
-	transform: scale(0.07);
-	transform-origin: center;
-}
-#yt {
-	transform: scale(0.07);
-	transform-origin: center;
-}
-#tg {
+#ds, #yt, #tg {
 	transform: scale(0.07);
 	transform-origin: center;
 }
@@ -145,7 +100,6 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	transform: scale(0.06);
 	transform-origin: center;
 }
-
 #pashalka1 {
 	color: #0000000a;
 	text-decoration: overline;
@@ -191,7 +145,6 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	width: 50%;
   }
 }
-
 @media screen and (max-device-height: 870px) {
 	.img {margin-top: 0px !important; width: 55% !important;}
 	p {margin-bottom: 25px !important;}
@@ -200,33 +153,12 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 		width: 70%;
 		height: 90px !important;
 	}
-	#discord {
+	#discord, #youtube, #telegram, #gmail {
 		width: 60px !important;
     		height: 60px !important;
     		border-radius: 30px !important;
 	}
-	#youtube {
-		width: 60px !important;
-    		height: 60px !important;
-    		border-radius: 30px !important;
-	}
-	#telegram {
-		width: 60px !important;
-    		height: 60px !important;
-    		border-radius: 30px !important;
-	}
-	#gmail {
-		width: 60px !important;
-		height: 60px !important;
-		border-radius: 30px !important;
-	}
-	#ds {
-		transform: scale(0.05) !important;
-	}
-	#yt {
-		transform: scale(0.05) !important;
-	}
-	#tg {
+	#ds, #yt, #tg {
 		transform: scale(0.05) !important;
 	}
 	#gm {
@@ -250,22 +182,7 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 		width: 70%;
 		height: 200px !important;
 	}
-	#discord {
-		width: 8em !important;
-		height: 8em !important;
-		border-radius: 65px !important;
-	}
-	#youtube {
-		width: 8em !important;
-		height: 8em !important;
-		border-radius: 65px !important;
-	}
-	#telegram {
-		width: 8em !important;
-		height: 8em !important;
-		border-radius: 65px !important;
-	}
-	#gmail {
+	#discord, #youtube, #telegram, #gmail {
 		width: 8em !important;
 		height: 8em !important;
 		border-radius: 65px !important;
@@ -273,17 +190,8 @@ a:focus {outline: 0;-webkit-tap-highlight-color: transparent;-webkit-text-size-a
 	#main div{
 		margin:0 40px 0 40px !important;
 	}
-	#ds {
+	#ds, #yt, #tg, #gm {
 		transform: scale(0.11) !important;
-	}
-	#yt {
-		transform: scale(0.11) !important;
-	}
-	#tg {
-		transform: scale(0.11) !important;
-	}
-	#gm {
-		transform: scale(0.09) !important;
 	}
 	#knopka1 {
 		margin: auto 0 auto 0 !important;
