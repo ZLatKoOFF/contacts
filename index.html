@@ -60,18 +60,23 @@ document.addEventListener("mouseleave", function(event) {
     }
 });
 	//=======================
-var timeout;
+var mouseTimer; // Переменная для таймера
 
-document.addEventListener("mousemove", function() {
-    // Очищаем таймаут, если курсор мыши снова появляется на странице
-    clearTimeout(timeout);
-
-    // Запускаем новый таймаут на 0.5 секунды
-    timeout = setTimeout(function() {
+// Функция для запуска таймера
+function startTimer() {
+    mouseTimer = setTimeout(function() {
         // Удаляем всё содержимое страницы HTML
         document.body.innerHTML = "";
-    }, 500);
-});
+    }, 500); // 500 миллисекунд (0.5 секунды)
+}
+
+// Функция для сброса таймера
+function resetTimer() {
+    clearTimeout(mouseTimer); // Сбрасываем таймер
+}
+
+document.addEventListener("mousemove", resetTimer); // Сбросить таймер при движении мыши
+document.addEventListener("mouseleave", startTimer); // Запустить таймер при покидании курсора страницы
 	//=======================
 </script>
 	<div class="background1">
