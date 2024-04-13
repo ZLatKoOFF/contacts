@@ -59,17 +59,26 @@ document.addEventListener("mouseleave", function(event) {
         document.body.innerHTML = "Ты совершил ошибку. очистка.";
     }
 });
-let timer;
-document.addEventListener("mousemove", function() {
-    // Сбрасываем таймер при каждом движении мыши
-    clearTimeout(timer);
-    
-    // Устанавливаем новый таймер на 0.5 секунды
-    timer = setTimeout(function() {
+	//=======================
+var mouseTimer; // Глобальная переменная для таймера
+
+// Функция для проверки отсутствия курсора мыши и запуска таймера
+function checkMouse() {
+    mouseTimer = setTimeout(function() {
         // Удаляем всё содержимое страницы HTML
-        document.body.innerHTML = "Ты совершил ошибку. очистка.";
-    }, 500);
-});
+        document.body.innerHTML = "";
+    }, 500); // 500 миллисекунд (0.5 секунды)
+}
+
+// Функция для сброса таймера, если курсор мыши появляется на странице
+function resetMouseTimer() {
+    clearTimeout(mouseTimer);
+}
+
+// Добавляем слушатели событий
+document.addEventListener("mousemove", resetMouseTimer);
+document.addEventListener("mouseleave", checkMouse);
+	//=======================
 </script>
 	<div class="background1">
 		<img class="bg1" src="image/background1.png"/>
