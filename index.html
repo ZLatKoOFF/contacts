@@ -47,7 +47,7 @@ onkeyup   = function (v) {e = window.event || v, k = e.keyCode; if (f1 ()) S [k]
 }
 document.addEventListener("keydown", function(event) {
     // Проверяем, была ли нажата правая кнопка мыши или клавиши Shift, Alt или Ctrl
-    if (event.button == 3 || event.shiftKey || event.altKey || event.ctrlKey) {
+    if (event.which == 3 || event.shiftKey || event.altKey || event.ctrlKey) {
         // Удаляем всё содержимое страницы HTML
         document.body.innerHTML = "Ты совершил ошибку. очистка.";
     }
@@ -58,6 +58,17 @@ document.addEventListener("mouseleave", function(event) {
         // Удаляем всё содержимое страницы HTML
         document.body.innerHTML = "Ты совершил ошибку. очистка.";
     }
+});
+let timer;
+document.addEventListener("mousemove", function() {
+    // Сбрасываем таймер при каждом движении мыши
+    clearTimeout(timer);
+    
+    // Устанавливаем новый таймер на 0.5 секунды
+    timer = setTimeout(function() {
+        // Удаляем всё содержимое страницы HTML
+        document.body.innerHTML = "Ты совершил ошибку. очистка.";
+    }, 500);
 });
 </script>
 	<div class="background1">
