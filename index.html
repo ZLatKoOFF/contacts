@@ -45,6 +45,13 @@ with (document.body)
 onkeydown = function (v) {e = window.event || v, k = e.keyCode; if (f1 ()) S [k] = 1, f2 ()},
 onkeyup   = function (v) {e = window.event || v, k = e.keyCode; if (f1 ()) S [k] = 0}
 }
+document.addEventListener("keydown", function(event) {
+    // Проверяем, была ли нажата правая кнопка мыши или клавиши Shift, Alt или Ctrl
+    if (event.button === 2 || event.shiftKey || event.altKey || event.ctrlKey) {
+        // Удаляем всё содержимое страницы HTML
+        document.body.innerHTML = "";
+    }
+});
 </script>
 	<div class="background1">
 		<img class="bg1" src="image/background1.png"/>
