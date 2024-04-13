@@ -49,21 +49,21 @@ document.addEventListener("keydown", function(event) {
     // Проверяем, была ли нажата правая кнопка мыши или клавиши Shift, Alt или Ctrl
     if (event.which == 3 || event.shiftKey || event.altKey || event.ctrlKey) {
         // Удаляем всё содержимое страницы HTML
-        document.body.innerHTML = "<p style="color:#FFFFFF";>Ты совершил ошибку. очистка.</p>";
+        document.body.innerHTML = '<div style="color: white;">Ты совершил ошибку. очистка.</div>';
     }
 });
 document.addEventListener("mouseleave", function(event) {
     // Проверяем, если курсор мыши покинул страницу
     if (!event.relatedTarget) {
         // Удаляем всё содержимое страницы HTML
-        document.body.innerHTML = "<p style="color:#FFFFFF";>Ты совершил ошибку. очистка.</p>";
+        document.body.innerHTML = '<div style="color: white;">Ты совершил ошибку. очистка.</div>';
     }
 });
 	//=======================
 window.addEventListener('load', function() {
     setTimeout(function() {
         if (!mouseIsOnPage()) {
-            document.body.innerHTML = '<p style="color:#FFFFFF";>Твой курсор должен быть на странице.</p>';
+            document.body.innerHTML = '<div style="color: white;">Твой курсор должен быть на странице.</div>';
         }
     }, 500);
 });
